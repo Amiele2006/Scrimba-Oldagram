@@ -1,0 +1,206 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+body {
+    background-color:rgba(237, 237, 237, 1);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    gap:138px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(198, 198, 198, 1);
+}
+
+.user-avatar {
+    margin-top:16px;
+}
+
+.user-avatar, .avatar-vincent, .avatar-gustave, .avatar-joseph
+{
+    width:34px;
+    height:34px;
+    border-radius: 20px;
+}
+
+.logo {
+    padding-left:0px;
+    width:132px;
+    height:63px;
+}
+
+/* First Post */
+.first-post {
+    background-color: white;
+}
+
+.name,.likes, .like ,.username, .comment, .name2, .likes2, 
+.username2, .comment2, .name3, .likes3, .username3, .comment3
+{
+    font-size:13px;
+}
+
+
+.vincent-container, .gustave-container, .joseph-container
+{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.avatar-vincent, .icon-container, .like, .username, .avatar-gustave,
+.username2, .avatar-joseph, .username3
+{
+    margin-left: 18px;
+}
+
+.avatar-vincent,  .avatar-gustave, .avatar-joseph
+{
+    margin-right: 7px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.name, .location, .likes, .like, .username, .comment,
+.name2, .location2, .likes2, .username2, .comment2,
+.name3, .location3, .likes3, .username3, .comment3
+{
+    font-family:"Source Sans 3", serif;
+    color:rgba(0, 0, 0, 1); 
+}
+
+.name, .name2, .name3 {
+    font-weight:700;
+    line-height:16.34px;
+    align-self: normal;
+    margin: 0;
+}
+
+.location, .location2, .location3 {
+    font-size:12px;
+    line-height:15.08px;
+    margin: 0;
+}
+
+.image-post, .image-post-2, .image-post-3 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+    height:375px;
+    margin-top: 15px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap:13px;
+    padding-top: 12px;
+}
+
+.icons {
+    color: rgba(0, 0, 0, 1);
+}
+
+.icons:hover {
+    color:rgba(0, 0, 0, 0.4);
+}
+
+#heart {
+    width:20.3px;
+    height:19.13px;
+}
+
+#comment {
+    width:18.65px;
+    height:18.65px;
+}
+
+#heart-message {
+    width:22.38px;
+    height:18.65px;
+}
+
+.likes, .like, .likes2, .likes3 {
+    font-weight: 700;
+}
+
+.like {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.comment-container {
+    display: flex;
+    gap:5px;
+    padding-top:5px;
+    padding-bottom: 15px;
+}
+
+.username, .comment,
+.username2, .comment2,
+.username3, .comment3
+{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.username, .username2, .username3
+{
+    font-weight: 700;
+}
+
+.comment, .comment2, .comment3
+{
+    font-weight: 400;
+}
+
+/* Second Post */
+.second-post {
+    background-color: white;
+    margin-top:20px;
+}
+
+.location2 {
+    margin-right: 6px;
+}
+
+.name2 {
+    margin-left: 10px;
+}
+
+.gustave-container {
+    padding-top: 13px;
+}
+
+/* Third Post */
+.third-post {
+    background-color: white;
+    margin-top:20px;
+}
+
+.location3 {
+    margin-right: 6px;
+}
+
+.name3 {
+    margin-left: 10px;
+}
+
+.joseph-container {
+    padding-top: 13px;
+}
+
+.comment3 {
+    text-align: left;
+}

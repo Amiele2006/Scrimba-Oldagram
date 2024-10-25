@@ -1,7 +1,9 @@
 import {defineConfig} from "vite"
 
 export default defineConfig({
-	plugins: [
-		
-	]
-})
+	build: {
+	  rollupOptions: {
+		// https://rollupjs.org/configuration-options/
+	  },
+	},
+  })

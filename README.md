@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started
 Install the dependencies and run the project
 ```
@@ -17,3 +18,7 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+=======
+# Scrimba-Oldagram
+This is an instagram clone i created with scrimba called Oldagram.
+>>>>>>> cfe6b55f211c44f83a882b4cb22e9abb88bcaf32
